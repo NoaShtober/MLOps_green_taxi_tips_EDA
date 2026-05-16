@@ -1,0 +1,16 @@
+
+Demo1:
+python taxi_tip_mlops_pipeline.py run --batch-path data/green_tripdata_2020-01.parquet --model-name="first_demo"
+
+Demo2:
+python taxi_tip_mlops_pipeline.py run --batch-path data/green_tripdata_2020-01.parquet --model-name="second_demo"
+python taxi_tip_mlops_pipeline.py run --reference-path data/green_tripdata_2020-01.parquet --batch-path data/green_tripdata_2020-04.parquet --model-name="second_demo"
+
+Demo3:
+python taxi_tip_mlops_pipeline.py run --batch-path data/green_tripdata_2020-01.parquet --model-name="third_demo"
+
+* Add exception in retrain
+python taxi_tip_mlops_pipeline.py run --reference-path data/green_tripdata_2020-01.parquet --batch-path data/green_tripdata_2020-04.parquet --model-name="third_demo"
+
+* it fails in retrain, remove the exception
+python taxi_tip_mlops_pipeline.py resume retrain 

@@ -1,0 +1,1 @@
+{"criteria": "rmse_candidate < rmse_champion * (1 - 0.01)", "rmse_champion": 2.7429531924781796, "rmse_candidate": 1.8401420783619749, "action": "promote", "reason": "Improved performance"}

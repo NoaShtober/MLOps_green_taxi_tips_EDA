@@ -1,0 +1,16 @@
+{
+    "drift_detected": true,
+    "drift_details": {
+        "dolocationid": "Drift alert triggered",
+        "pulocationid": "Drift alert triggered",
+        "trip_distance": "Drift alert triggered"
+    },
+    "range_violations": [
+        "trip_distance: 10 rows",
+        "fare_amount: 122 rows",
+        "tip_amount: 2 rows",
+        "total_amount: 122 rows"
+    ],
+    "invalid_times_count": 0,
+    "nannyml_status": "success"
+}

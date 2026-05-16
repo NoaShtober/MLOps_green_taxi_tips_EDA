@@ -1,0 +1,23 @@
+{
+    "features": [
+        "lpep_pickup_hour",
+        "lpep_pickup_day_of_week",
+        "lpep_pickup_month",
+        "PULocationID",
+        "DOLocationID",
+        "passenger_count",
+        "trip_distance",
+        "duration_min"
+    ],
+    "count": 8,
+    "dtypes": {
+        "lpep_pickup_hour": "float64",
+        "lpep_pickup_day_of_week": "float64",
+        "lpep_pickup_month": "float64",
+        "PULocationID": "float64",
+        "DOLocationID": "float64",
+        "passenger_count": "float64",
+        "trip_distance": "float64",
+        "duration_min": "float64"
+    }
+}
