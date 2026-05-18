@@ -112,7 +112,8 @@ python taxi_tip_mlops_pipeline.py resume retrain
 
 ## Demos in the Video ##
 
-There are 3 demos which are shown in the video. You can enter the explanations file which is in this repository to show the commands I used for each demo.
+There are 3 demos which are shown in the video. You can enter the explanations file which is in this repository to show the commands I used for each demo. 
+It is recommended you will run each video in a different experiment (by changing the experiment name in the code) in order to see each demo separately.
 
 ## Artifacts & Tracking ## 
 Every major step serializes and attaches diagnostic JSON summaries directly to the corresponding MLflow tracking run:
