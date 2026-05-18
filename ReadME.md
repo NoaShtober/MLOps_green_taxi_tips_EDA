@@ -86,12 +86,12 @@ A newly trained candidate model will only displace the reigning champion if it s
 
 ## Running the Project ##
 
-Prerequisites
+### Running the Server ###
 Ensure your local MLflow tracking server is running in the background prior to starting a run:
 
 mlflow server --host 127.0.0.1 --port 5000
 
-## Running the Pipeline ## 
+### Running the Pipeline ###
 Execute a standard run using default parameter configurations:
 
 
@@ -105,7 +105,7 @@ python taxi_tip_mlops_pipeline.py run \
   
 The experiment you will run is called Green_Taxi_Tip_Demo3
 
-## Resuming from Failures ##
+### Resuming from Failures ###
 If the pipeline fails midway through execution (e.g., a network hiccup or an intentional debugging failure in the retrain step), you can resume the exact state graph right where it broke after fixing the issue:
 
 python taxi_tip_mlops_pipeline.py resume retrain
