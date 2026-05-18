@@ -102,12 +102,17 @@ Execute a run with customized target paths for your streaming/batch files and re
 python taxi_tip_mlops_pipeline.py run \
   --batch-path "data/green_tripdata_2020-04.parquet" \
   --reference-path "data/green_tripdata_2020-01.parquet"
+  
 The experiment you will run is called Green_Taxi_Tip_Demo3
-Resuming from Failures
+
+## Resuming from Failures ##
 If the pipeline fails midway through execution (e.g., a network hiccup or an intentional debugging failure in the retrain step), you can resume the exact state graph right where it broke after fixing the issue:
 
-
 python taxi_tip_mlops_pipeline.py resume retrain
+
+## Demos in the Video ##
+
+There are 3 demos which are shown in the video. You can enter the explanations file which is in this repository to show the commands I used for each demo.
 
 ## Artifacts & Tracking ## 
 Every major step serializes and attaches diagnostic JSON summaries directly to the corresponding MLflow tracking run:
